@@ -1,0 +1,22 @@
+{
+  "name": "gigster-cypress-gherkin-automation-framework",
+  "version": "1.0.0",
+  "description": "Test automation framework created with Cucumber (gherkin)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arslan Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^14.0.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}

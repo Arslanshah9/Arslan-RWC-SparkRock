@@ -1,0 +1,30 @@
+{
+    "envInfo": {
+        "baseURL": "https://www.saucedemo.com",
+        "loginPage": "https://www.saucedemo.com/",
+        "productsPage": "https://www.saucedemo.com/inventory.html",
+        "cartPage": "https://www.saucedemo.com/cart.html",
+        "checkoutPage": "https://www.saucedemo.com/checkout-step-one.html"
+    },
+
+    "selectors": {
+        "usernameField": "#user-name",
+        "passwordField": "#password",
+        "loginButton": "#login-button",
+        "errorMessage": "[data-test='error']",
+        "productTitle": ".title",
+        "addToCartButton": "[data-test='add-to-cart-sauce-labs-backpack']",
+        "cartBadge": ".shopping_cart_badge",
+        "cartIcon": ".shopping_cart_link",
+        "itemInCart": ".inventory_item_name",
+        "checkoutButton": "[data-test='checkout']",
+        "firstNameField": "[data-test='firstName']",
+        "lastNameField": "[data-test='lastName']",
+        "postalCodeField": "[data-test='postalCode']",
+        "continueButton": "[data-test='continue']",
+        "finishButton": "[data-test='finish']",
+        "completeConfirmation": ".complete-header",
+        "logoutButton": "#logout_sidebar_link",
+        "menuButton": "#react-burger-menu-btn"
+    }
+}
