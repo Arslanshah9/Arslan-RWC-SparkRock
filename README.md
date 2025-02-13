@@ -10,8 +10,6 @@ Clone the repo
 
 Run the following command inside the repo folder
 
-npm install
-
 npm install --save-dev cypress
 
 npx cypress run --browser chrome --headed
